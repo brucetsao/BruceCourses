@@ -1,0 +1,17 @@
+1) Install the OOML as expalined in http://iearobotics.com/oomlwiki
+
+2) Set the OOML include dir and link dir using cmake
+(Linux ccmake .)
+
+3) Build using cmake
+(Linux MAC/OSX)
+
+cmake .
+make
+
+4) Run the protobot program and it will generate the scad files
+protobot.scad
+wheel.scad
+spacers.scad
+
+5) Generate the STL files with OpenSCAD.
